@@ -34,18 +34,18 @@
       --color-sin-clase: #5F6368;  /* S - Sin clase */
       --color-sin-clase-bg: #ECEFF1;
 
-      --radius-sm: 10px;
-      --radius-md: 18px;
-      --radius-lg: 26px;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
       --radius-full: 9999px;
       --shadow-sm: 0 2px 6px rgba(0,0,0,0.05);
       --shadow-md: 0 6px 18px rgba(0,0,0,0.07);
       --shadow-lg: 0 12px 30px rgba(25, 114, 210, 0.18);
 
-      /* PATRÓN DE ICONOS EDUCATIVOS SUTILES (SVG) */
-      --pattern-subtle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none' stroke='%231972D2' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='0.05'%3E%3Cpath d='M12 16 c3-2 9-2 12 0 c3-2 9-2 12 0 v14 c-3-2-9-2-12 0 c-3-2-9-2-12 0 z M24 16 v14'/%3E%3Cpath d='M55 12 l8 8 l-14 14 l-8-8 z M45 30 l-4 9 l9-4 z'/%3E%3Cpath d='M15 55 l1.5 3 l3.5 0.5 l-2.5 2.5 l0.5 3.5 l-3-1.5 l-3 1.5 l0.5-3.5 l-2.5-2.5 l3.5-0.5 z'/%3E%3Cpath d='M52 52 l14-5 l14 5 l-14 5 z M58 55 v6 c0 3 6 5 8 5 s8-2 8-5 v-6'/%3E%3Ccircle cx='38' cy='45' r='4'/%3E%3Cpath d='M36 51 h4'/%3E%3C/svg%3E");
+      /* Patrón sutil de fondo */
+      --pattern-subtle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none' stroke='%231972D2' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='0.04'%3E%3Cpath d='M12 16 c3-2 9-2 12 0 c3-2 9-2 12 0 v14 c-3-2-9-2-12 0 c-3-2-9-2-12 0 z M24 16 v14'/%3E%3Cpath d='M55 12 l8 8 l-14 14 l-8-8 z M45 30 l-4 9 l9-4 z'/%3E%3Cpath d='M15 55 l1.5 3 l3.5 0.5 l-2.5 2.5 l0.5 3.5 l-3-1.5 l-3 1.5 l0.5-3.5 l-2.5-2.5 l3.5-0.5 z'/%3E%3Cpath d='M52 52 l14-5 l14 5 l-14 5 z M58 55 v6 c0 3 6 5 8 5 s8-2 8-5 v-6'/%3E%3Ccircle cx='38' cy='45' r='4'/%3E%3Cpath d='M36 51 h4'/%3E%3C/svg%3E");
 
-      /* PATRÓN DE ICONOS PARA LA TARJETA DE BIENVENIDA */
+      /* Patrón decorativo tarjeta bienvenida */
       --pattern-hero: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90' fill='none' stroke='%23FFFFFF' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' opacity='0.18'%3E%3Cpath d='M14 18 c4-3 10-3 14 0 c4-3 10-3 14 0 v16 c-4-3-10-3-14 0 c-4-3-10-3-14 0 z M28 18 v16'/%3E%3Cpath d='M62 14 l9 9 l-16 16 l-9-9 z M51 34 l-5 11 l11-5 z'/%3E%3Cpath d='M18 64 l2 4 l4.5 0.5 l-3 3 l1 4.5 l-4.5-2 l-4.5 2 l1-4.5 l-3-3 l4.5-0.5 z' fill='%23FFFFFF' fill-opacity='0.15'/%3E%3Cpath d='M60 62 l16-6 l16 6 l-16 6 z M67 65 v7 c0 3 7 6 9 6 s9-3 9-6 v-7'/%3E%3Ccircle cx='44' cy='52' r='5'/%3E%3Cpath d='M41 60 h6 M42 63 h4'/%3E%3C/svg%3E");
     }
 
@@ -70,7 +70,7 @@
 
     /* BARRA LATERAL (DRAWER) */
     aside.android-drawer {
-      width: 300px;
+      width: 290px;
       background: var(--surface-card);
       border-right: 1px solid var(--outline);
       display: flex;
@@ -81,7 +81,7 @@
     }
 
     .drawer-header {
-      padding: 24px 20px;
+      padding: 22px 18px;
       border-bottom: 1px solid var(--outline);
       display: flex;
       align-items: center;
@@ -90,8 +90,8 @@
     }
 
     .brand-logo-icon {
-      width: 46px;
-      height: 46px;
+      width: 44px;
+      height: 44px;
       border-radius: var(--radius-md);
       background: linear-gradient(135deg, var(--primary), #7C4DFF);
       color: white;
@@ -104,7 +104,7 @@
     .schools-container {
       flex: 1;
       overflow-y: auto;
-      padding: 16px;
+      padding: 14px;
     }
 
     .section-title-sm {
@@ -146,8 +146,8 @@
     }
 
     .school-avatar {
-      width: 36px;
-      height: 36px;
+      width: 34px;
+      height: 34px;
       border-radius: var(--radius-full);
       background: var(--primary);
       color: white;
@@ -155,7 +155,7 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .courses-box {
@@ -170,7 +170,7 @@
     .course-pill-item {
       padding: 8px 12px;
       border-radius: var(--radius-sm);
-      font-size: 13px;
+      font-size: 12.5px;
       margin-bottom: 4px;
       cursor: pointer;
       display: flex;
@@ -195,9 +195,8 @@
       position: relative;
     }
 
-    /* TOPBAR ANDROID CON BOTONES DE ACCIÓN */
     header.android-topbar {
-      height: 64px;
+      height: 62px;
       background: var(--surface-card);
       border-bottom: 1px solid var(--outline);
       display: flex;
@@ -208,8 +207,8 @@
     }
 
     .btn-icon {
-      width: 44px;
-      height: 44px;
+      width: 42px;
+      height: 42px;
       border-radius: var(--radius-full);
       border: none;
       background: transparent;
@@ -249,24 +248,23 @@
       color: var(--primary-dark);
     }
 
-    .btn-app-action.btn-save-top:hover {
-      filter: brightness(0.96);
-    }
-
-    .nav-tabs-group {
+    /* PESTAÑAS DENTRO DEL CURSO */
+    .view-filter-tabs {
       display: flex;
-      background: #ECEFF4;
+      background: #EAEFF6;
       padding: 4px;
       border-radius: var(--radius-full);
       gap: 4px;
+      margin-bottom: 14px;
+      align-self: flex-start;
     }
 
-    .tab-btn {
+    .tab-filter-btn {
       border: none;
       background: transparent;
-      padding: 8px 16px;
+      padding: 7px 14px;
       border-radius: var(--radius-full);
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 600;
       color: var(--text-muted);
       cursor: pointer;
@@ -276,7 +274,7 @@
       transition: all 0.2s;
     }
 
-    .tab-btn.active {
+    .tab-filter-btn.active {
       background: var(--primary);
       color: white;
       box-shadow: var(--shadow-sm);
@@ -285,7 +283,7 @@
     .screen-view {
       flex: 1;
       overflow-y: auto;
-      padding: 24px;
+      padding: 20px;
       display: none;
     }
 
@@ -293,10 +291,10 @@
       display: block;
     }
 
-    /* PANTALLA DE INICIO (HOME) */
+    /* PANTALLA INICIO */
     .hero-hache-title {
       font-family: 'Product Sans', sans-serif;
-      font-size: 38px;
+      font-size: 34px;
       font-weight: 900;
       color: var(--primary-dark);
       letter-spacing: -0.5px;
@@ -307,10 +305,10 @@
     }
 
     .hero-hache-subtitle {
-      font-size: 15px;
+      font-size: 14px;
       color: var(--text-muted);
       font-weight: 500;
-      margin-bottom: 22px;
+      margin-bottom: 20px;
     }
 
     .greeting-card {
@@ -319,12 +317,10 @@
       background-size: 90px 90px, auto;
       background-repeat: repeat, no-repeat;
       border-radius: var(--radius-lg);
-      padding: 32px 28px;
+      padding: 28px 24px;
       color: white;
-      position: relative;
-      overflow: hidden;
       box-shadow: var(--shadow-lg);
-      margin-bottom: 26px;
+      margin-bottom: 24px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -332,29 +328,26 @@
     }
 
     .greeting-content {
-      max-width: 70%;
-      z-index: 2;
+      max-width: 72%;
     }
 
     .greeting-content h2 {
-      font-size: 28px;
+      font-size: 26px;
       font-weight: 900;
       font-family: 'Product Sans', sans-serif;
-      margin-bottom: 8px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+      margin-bottom: 6px;
     }
 
     .greeting-content p {
-      font-size: 14.5px;
-      line-height: 1.5;
+      font-size: 14px;
+      line-height: 1.45;
       opacity: 0.95;
-      margin-bottom: 18px;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      margin-bottom: 16px;
     }
 
     .hero-badge-art {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
       border-radius: var(--radius-lg);
       background: rgba(255, 255, 255, 0.12);
       backdrop-filter: blur(8px);
@@ -362,15 +355,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-      flex-shrink: 0;
     }
 
-    /* CALENDARIO Y AGENDA */
+    /* CALENDARIO */
     .calendar-card {
       background: var(--surface-card);
       border-radius: var(--radius-lg);
-      padding: 24px;
+      padding: 20px;
       box-shadow: var(--shadow-sm);
       border: 1px solid var(--outline);
     }
@@ -378,19 +369,18 @@
     .calendar-filter-pills {
       display: flex;
       gap: 8px;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
     .pill-filter {
       border: none;
       background: #F1F4F9;
-      padding: 8px 18px;
+      padding: 7px 16px;
       border-radius: var(--radius-full);
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 600;
       color: var(--text-muted);
       cursor: pointer;
-      transition: all 0.2s;
     }
 
     .pill-filter.active {
@@ -401,8 +391,8 @@
     .event-card {
       background: white;
       border-radius: var(--radius-md);
-      padding: 14px 18px;
-      margin-bottom: 12px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -419,7 +409,7 @@
     /* ESTADOS VACÍOS */
     .empty-state-view {
       text-align: center;
-      padding: 40px 20px;
+      padding: 34px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -427,21 +417,21 @@
     }
 
     .empty-icon-circle {
-      width: 72px;
-      height: 72px;
+      width: 64px;
+      height: 64px;
       border-radius: var(--radius-full);
       background: var(--primary-container);
       color: var(--primary);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .empty-state-view h4 {
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 700;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
 
     .empty-state-view p {
@@ -449,62 +439,59 @@
       color: var(--text-muted);
       max-width: 360px;
       line-height: 1.4;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
-    /* BOTONES GENERALES */
+    /* BOTONES */
     .btn-filled {
       background: var(--primary);
       color: white;
       border: none;
-      padding: 10px 20px;
+      padding: 8px 18px;
       border-radius: var(--radius-full);
       font-weight: 600;
-      font-size: 13px;
+      font-size: 12.5px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       box-shadow: var(--shadow-sm);
-    }
-
-    .btn-filled:hover {
-      filter: brightness(0.95);
     }
 
     .btn-tonal {
       background: var(--primary-container);
       color: var(--primary-dark);
       border: none;
-      padding: 10px 18px;
+      padding: 8px 16px;
       border-radius: var(--radius-full);
       font-weight: 600;
-      font-size: 13px;
+      font-size: 12.5px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
 
-    /* TABLAS DE ASISTENCIA Y NOTAS */
+    /* TABLA INTEGRAL PANORÁMICA DE ALTA DENSIDAD */
     .table-responsive {
       overflow-x: auto;
       border-radius: var(--radius-md);
       background: white;
       border: 1px solid var(--outline);
+      max-height: calc(100vh - 210px);
     }
 
     table.modern-table {
       width: 100%;
       border-collapse: separate;
       border-spacing: 0;
-      font-size: 13px;
+      font-size: 12px;
     }
 
     table.modern-table th, table.modern-table td {
       border-bottom: 1px solid var(--outline);
       border-right: 1px solid rgba(0,0,0,0.05);
-      padding: 10px 8px;
+      padding: 7px 6px;
       text-align: center;
     }
 
@@ -512,27 +499,45 @@
       position: sticky;
       left: 0;
       background: white;
-      z-index: 2;
+      z-index: 3;
       text-align: left;
       font-weight: 600;
-      min-width: 220px;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.04);
+      min-width: 190px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.05);
     }
 
     table.modern-table th {
       background: #F8F9FA;
       color: var(--text-muted);
       font-weight: 700;
-      vertical-align: bottom;
+      position: sticky;
+      top: 0;
+      z-index: 2;
     }
 
-    /* ENCABEZADOS VERTICALES PARA EXÁMENES */
+    table.modern-table th.col-student {
+      z-index: 4;
+    }
+
+    /* ENCABEZADOS DE SECCIÓN */
+    .section-th-header {
+      background: #EEF3FA !important;
+      color: var(--primary-dark) !important;
+      font-weight: 800 !important;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid #C8D8ED !important;
+    }
+
+    /* ENCABEZADOS VERTICALES PARA EXÁMENES (COMPACTOS) */
     .th-vertical {
-      height: 125px;
-      width: 44px;
-      min-width: 44px;
-      max-width: 44px;
-      padding: 6px 2px !important;
+      height: 110px;
+      width: 40px;
+      min-width: 40px;
+      max-width: 40px;
+      padding: 4px 1px !important;
+      vertical-align: bottom;
     }
 
     .vertical-title {
@@ -541,9 +546,9 @@
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: 700;
-      height: 95px;
+      height: 85px;
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -553,38 +558,46 @@
 
     .th-del-btn {
       color: var(--color-ted);
-      font-size: 16px;
+      font-size: 15px;
       cursor: pointer;
     }
 
-    /* CELDAS ASISTENCIA (P / A / S) */
+    /* CELDAS ASISTENCIA COMPACTAS */
     .chip-att {
-      width: 36px;
-      height: 36px;
-      border-radius: var(--radius-sm);
+      width: 30px;
+      height: 30px;
+      border-radius: 6px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       font-weight: 900;
       cursor: pointer;
       user-select: none;
-      font-size: 13px;
+      font-size: 12px;
+      transition: all 0.1s;
     }
 
-    .chip-P { background: var(--color-tep-bg); color: var(--color-tep); }
-    .chip-A { background: var(--color-ted-bg); color: var(--color-ted); }
-    .chip-S { background: var(--color-sin-clase-bg); color: var(--color-sin-clase); }
+    /* ESTADO INICIAL VACÍO */
+    .chip-empty {
+      background: #FAFAFA;
+      color: #9E9E9E;
+      border: 1.5px dashed #D1D5DB;
+    }
+
+    .chip-P { background: var(--color-tep-bg); color: var(--color-tep); border: 1px solid var(--color-tep); }
+    .chip-A { background: var(--color-ted-bg); color: var(--color-ted); border: 1px solid var(--color-ted); }
+    .chip-S { background: var(--color-sin-clase-bg); color: var(--color-sin-clase); border: 1px solid #B0BEC5; }
 
     /* NOTAS Y VALORACIONES */
     .chip-grade {
       display: inline-block;
-      width: 34px;
-      height: 30px;
-      line-height: 30px;
-      border-radius: var(--radius-sm);
+      width: 30px;
+      height: 28px;
+      line-height: 28px;
+      border-radius: 6px;
       font-weight: 700;
       text-align: center;
-      font-size: 13px;
+      font-size: 12px;
       cursor: pointer;
     }
 
@@ -593,11 +606,11 @@
     .g-blue { background: var(--color-tea-bg); color: var(--color-tea); }
 
     .val-badge {
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: var(--radius-full);
       font-weight: 800;
-      font-size: 11px;
-      letter-spacing: 0.5px;
+      font-size: 10.5px;
+      letter-spacing: 0.3px;
       display: inline-block;
     }
 
@@ -608,21 +621,21 @@
     /* BOTÓN FLOTANTE IA */
     .fab-ia {
       position: fixed;
-      bottom: 24px;
-      right: 24px;
-      height: 56px;
-      padding: 0 20px;
+      bottom: 22px;
+      right: 22px;
+      height: 52px;
+      padding: 0 18px;
       background: linear-gradient(135deg, var(--primary), #7C4DFF);
       color: white;
       border-radius: var(--radius-full);
       box-shadow: var(--shadow-lg);
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       border: none;
       cursor: pointer;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 13.5px;
       z-index: 50;
       transition: transform 0.2s;
     }
@@ -631,7 +644,7 @@
       transform: scale(1.05);
     }
 
-    /* VENTANAS MODALES */
+    /* MODALES */
     .modal-backdrop {
       position: fixed;
       inset: 0;
@@ -656,7 +669,7 @@
     }
 
     .form-group {
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .form-group label {
@@ -664,17 +677,17 @@
       font-size: 11px;
       font-weight: 700;
       color: var(--text-muted);
-      margin-bottom: 6px;
+      margin-bottom: 5px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
 
     .form-control {
       width: 100%;
-      padding: 12px 14px;
+      padding: 11px 13px;
       border: 1.5px solid var(--outline);
       border-radius: var(--radius-sm);
-      font-size: 14px;
+      font-size: 13.5px;
       outline: none;
     }
 
@@ -684,16 +697,16 @@
 
     /* CHAT ASISTENTE */
     .chat-container {
-      max-height: 300px;
+      max-height: 280px;
       overflow-y: auto;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
 
     .chat-bubble {
-      padding: 12px 14px;
+      padding: 11px 14px;
       border-radius: var(--radius-md);
       font-size: 13px;
       line-height: 1.4;
@@ -727,17 +740,17 @@
       display: inline-block;
     }
 
-    /* TOAST / SNACKBAR ANDROID */
+    /* TOAST */
     #androidToast {
       position: fixed;
-      bottom: 30px;
+      bottom: 26px;
       left: 50%;
       transform: translateX(-50%) translateY(100px);
       background: #2C3036;
       color: white;
-      padding: 12px 24px;
+      padding: 11px 22px;
       border-radius: var(--radius-full);
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 500;
       box-shadow: var(--shadow-md);
       display: flex;
@@ -754,22 +767,14 @@
       opacity: 1;
     }
 
-    /* ==============================================================
-       ESTILOS EXCLUSIVOS PARA IMPRESIÓN OFICIAL (A4 HORIZONTAL)
-       ============================================================== */
+    /* IMPRESIÓN OFICIAL */
     #printReportArea {
       display: none;
     }
 
     @media print {
-      body * {
-        visibility: hidden !important;
-      }
-
-      #printReportArea, #printReportArea * {
-        visibility: visible !important;
-      }
-
+      body * { visibility: hidden !important; }
+      #printReportArea, #printReportArea * { visibility: visible !important; }
       #printReportArea {
         display: block !important;
         position: absolute;
@@ -781,59 +786,29 @@
         font-family: Arial, sans-serif;
         padding: 10px;
       }
-
-      @page {
-        size: A4 landscape;
-        margin: 1.2cm;
-      }
-
+      @page { size: A4 landscape; margin: 1cm; }
       table.print-report-table {
         width: 100%;
         border-collapse: collapse;
-        font-size: 10.5pt;
-        margin-top: 15px;
+        font-size: 10pt;
+        margin-top: 14px;
       }
-
       table.print-report-table th, table.print-report-table td {
         border: 1px solid #333;
-        padding: 6px 8px;
+        padding: 5px 6px;
         text-align: center;
       }
-
-      table.print-report-table th {
-        background-color: #EEE !important;
-        font-weight: bold;
-      }
-
-      table.print-report-table td.text-left {
-        text-align: left;
-        font-weight: bold;
-      }
-
-      .badge-print {
-        font-weight: bold;
-        padding: 2px 5px;
-      }
+      table.print-report-table th { background-color: #EEE !important; font-weight: bold; }
+      table.print-report-table td.text-left { text-align: left; font-weight: bold; }
+      .badge-print { font-weight: bold; padding: 2px 4px; }
     }
 
     @media (max-width: 850px) {
-      aside.android-drawer {
-        position: fixed;
-        left: -320px;
-        height: 100%;
-      }
-      aside.android-drawer.open {
-        transform: translateX(320px);
-      }
-      .greeting-content {
-        max-width: 100%;
-      }
-      .hero-badge-art {
-        display: none;
-      }
-      .hide-mobile-text span:not(.material-symbols-rounded) {
-        display: none;
-      }
+      aside.android-drawer { position: fixed; left: -300px; height: 100%; }
+      aside.android-drawer.open { transform: translateX(300px); }
+      .greeting-content { max-width: 100%; }
+      .hero-badge-art { display: none; }
+      .hide-mobile-text span:not(.material-symbols-rounded) { display: none; }
     }
   </style>
 </head>
@@ -843,10 +818,10 @@
   <aside class="android-drawer" id="appDrawer">
     <div class="drawer-header" onclick="goToHome()">
       <div class="brand-logo-icon">
-        <span class="material-symbols-rounded" style="font-size: 28px;">school</span>
+        <span class="material-symbols-rounded" style="font-size: 26px;">school</span>
       </div>
       <div>
-        <h3 style="font-family: 'Product Sans'; font-size: 20px; font-weight: 700; color: var(--primary);">Hache</h3>
+        <h3 style="font-family: 'Product Sans'; font-size: 19px; font-weight: 700; color: var(--primary);">Hache</h3>
         <p style="font-size: 12px; color: var(--text-muted);">Agenda Docente</p>
       </div>
     </div>
@@ -875,31 +850,19 @@
           <span class="material-symbols-rounded">home</span>
         </button>
         <div id="topCourseInfo">
-          <h2 style="font-size: 16px; font-weight: 700;" id="topTitleBar">Inicio</h2>
+          <h2 style="font-size: 15.5px; font-weight: 700;" id="topTitleBar">Inicio</h2>
           <span style="font-size: 11px; color: var(--text-muted);" id="topSubtitleBar">Hache, agenda docente</span>
         </div>
-      </div>
-
-      <!-- TABS DEL CURSO SELECCIONADO -->
-      <div class="nav-tabs-group" id="courseNavTabs" style="display: none;">
-        <button class="tab-btn active" id="tabBtnAsistencia" onclick="switchCourseTab('asistencia')">
-          <span class="material-symbols-rounded" style="font-size: 18px;">fact_check</span>
-          Asistencia
-        </button>
-        <button class="tab-btn" id="tabBtnNotas" onclick="switchCourseTab('notas')">
-          <span class="material-symbols-rounded" style="font-size: 18px;">grade</span>
-          Notas
-        </button>
       </div>
 
       <!-- BOTONES DE ACCIÓN: GUARDAR E IMPRIMIR -->
       <div style="display: flex; align-items: center; gap: 8px;">
         <button class="btn-app-action btn-save-top hide-mobile-text" onclick="handleManualSave()" title="Guardar cambios">
-          <span class="material-symbols-rounded" style="font-size: 19px;">save</span>
+          <span class="material-symbols-rounded" style="font-size: 18px;">save</span>
           <span>Guardar</span>
         </button>
-        <button class="btn-app-action hide-mobile-text" onclick="openPrintModal()" title="Imprimir planilla de notas">
-          <span class="material-symbols-rounded" style="font-size: 19px;">print</span>
+        <button class="btn-app-action hide-mobile-text" onclick="openPrintModal()" title="Imprimir planilla">
+          <span class="material-symbols-rounded" style="font-size: 18px;">print</span>
           <span>Imprimir</span>
         </button>
       </div>
@@ -908,12 +871,12 @@
     <!-- 1. PANTALLA DE INICIO (HOME) -->
     <div class="screen-view active" id="screenHome">
       <div class="hero-hache-title">
-        <span class="material-symbols-rounded" style="font-size: 42px; color: var(--primary);">auto_stories</span>
+        <span class="material-symbols-rounded" style="font-size: 38px; color: var(--primary);">auto_stories</span>
         Hache, agenda docente
       </div>
-      <p class="hero-hache-subtitle">Planificación semanal, registro de asistencias y trayectorias pedagógicas.</p>
+      <p class="hero-hache-subtitle">Planificación semanal, registro de asistencias y valoraciones pedagógicas.</p>
 
-      <!-- VENTANA DE BIENVENIDA -->
+      <!-- TARJETA DE BIENVENIDA -->
       <div class="greeting-card">
         <div class="greeting-content">
           <h2>¡Hola, profe! 👋</h2>
@@ -928,16 +891,16 @@
         </div>
 
         <div class="hero-badge-art">
-          <span class="material-symbols-rounded" style="font-size: 48px; color: white;">calendar_month</span>
+          <span class="material-symbols-rounded" style="font-size: 44px; color: white;">calendar_month</span>
         </div>
       </div>
 
       <!-- CALENDARIO DE EVENTOS -->
       <div class="calendar-card">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
           <div>
-            <h3 style="font-size: 18px; font-weight: 700;">Calendario Escolar y Agenda</h3>
-            <p style="font-size: 12px; color: var(--text-muted);">Fechas importantes: paros, feriados, exámenes y trabajos prácticos</p>
+            <h3 style="font-size: 17px; font-weight: 700;">Calendario Escolar y Agenda</h3>
+            <p style="font-size: 12px; color: var(--text-muted);">Fechas importantes: paros, feriados, exámenes y entregas</p>
           </div>
           <button class="btn-tonal" onclick="openAddEventModal()">
             <span class="material-symbols-rounded">event</span>
@@ -957,56 +920,48 @@
       </div>
     </div>
 
-    <!-- 2. PANTALLA DEL CURSO (ASISTENCIA Y NOTAS) -->
+    <!-- 2. PANTALLA DEL CURSO (PLANILLA INTEGRAL) -->
     <div class="screen-view" id="screenCourse">
       
-      <!-- SUB-VISTA: ASISTENCIA -->
-      <div id="subViewAsistencia">
-        <div class="calendar-card">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-            <div>
-              <h3 style="font-size: 18px; font-weight: 700;">Control de Asistencia</h3>
-              <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
-                Toca cada casilla: <b>P (Presente)</b> &bull; <b>A (Ausente)</b> &bull; <b>S (Sin clase: paro, asueto, feriado o lluvia)</b>
-              </p>
-            </div>
-            <div style="display: flex; gap: 8px;">
-              <button class="btn-tonal" onclick="openConfigDiasModal()">
-                <span class="material-symbols-rounded">tune</span>
-                Días de Clase
-              </button>
-              <button class="btn-filled" onclick="openAddStudentModal()">
-                <span class="material-symbols-rounded">person_add</span>
-                Estudiante
-              </button>
-            </div>
-          </div>
-
-          <div id="attendanceTableWrapper" class="table-responsive">
-            <!-- Tabla de asistencia -->
-          </div>
-        </div>
-      </div>
-
-      <!-- SUB-VISTA: CALIFICACIONES / NOTAS -->
-      <div id="subViewNotas" style="display: none;">
-        <div class="calendar-card">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-            <div>
-              <h3 style="font-size: 18px; font-weight: 700;">Calificaciones y Trayectorias</h3>
-              <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
-                Notas: <b>1-3 (Rojo)</b>, <b>4-6 (Amarillo)</b>, <b>7-10 (Azul)</b>. TEA (>7), TEP (1-6) y TED (si nunca asistió).
-              </p>
-            </div>
-            <button class="btn-filled" onclick="openAddExamModal()">
-              <span class="material-symbols-rounded">add_circle</span>
-              Agregar Examen / TP
+      <div class="calendar-card" style="padding: 16px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+          
+          <!-- SELECTOR DE VISTA: INTEGRAL / SOLO ASISTENCIA / SOLO NOTAS -->
+          <div class="view-filter-tabs">
+            <button class="tab-filter-btn active" id="tabIntegral" onclick="setTableViewMode('all')">
+              <span class="material-symbols-rounded" style="font-size: 17px;">view_quilt</span>
+              Planilla Integral (Todo junto)
+            </button>
+            <button class="tab-filter-btn" id="tabSoloAtt" onclick="setTableViewMode('attendance')">
+              <span class="material-symbols-rounded" style="font-size: 17px;">fact_check</span>
+              Solo Asistencia
+            </button>
+            <button class="tab-filter-btn" id="tabSoloGrades" onclick="setTableViewMode('grades')">
+              <span class="material-symbols-rounded" style="font-size: 17px;">grade</span>
+              Solo Notas
             </button>
           </div>
 
-          <div id="gradesTableWrapper" class="table-responsive">
-            <!-- Tabla de notas con encabezados verticales -->
+          <!-- BOTONES DE ACCIÓN DEL CURSO -->
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn-tonal" onclick="openConfigDiasModal()" title="Configurar días de clase">
+              <span class="material-symbols-rounded">tune</span>
+              Días de Clase
+            </button>
+            <button class="btn-filled" onclick="openAddStudentModal()">
+              <span class="material-symbols-rounded">person_add</span>
+              Estudiante
+            </button>
+            <button class="btn-filled" style="background: #2E7D32;" onclick="openAddExamModal()">
+              <span class="material-symbols-rounded">add_circle</span>
+              Examen / TP
+            </button>
           </div>
+        </div>
+
+        <!-- TABLA DINÁMICA -->
+        <div id="unifiedTableWrapper" class="table-responsive">
+          <!-- Generada por JS -->
         </div>
       </div>
 
@@ -1019,28 +974,27 @@
     Hache IA
   </button>
 
-  <!-- SNACKBAR DE CONFIRMACIÓN (TOAST ANDROID) -->
+  <!-- SNACKBAR DE CONFIRMACIÓN -->
   <div id="androidToast">
-    <span class="material-symbols-rounded" style="color: #4CAF50; font-size: 20px;">check_circle</span>
-    <span id="toastMessage">Cambios guardados con éxito</span>
+    <span class="material-symbols-rounded" style="color: #4CAF50; font-size: 19px;">check_circle</span>
+    <span id="toastMessage">Cambios guardados</span>
   </div>
 
   <!-- ==================== MODALES ==================== -->
 
-  <!-- MODAL: IMPRIMIR PLANILLA (CONFIGURACIÓN PERSONALIZADA) -->
+  <!-- MODAL: IMPRIMIR PLANILLA -->
   <div class="modal-backdrop" id="modalPrint">
-    <div class="modal-window" style="max-width: 520px;">
-      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+    <div class="modal-window" style="max-width: 500px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
         <div style="display: flex; align-items: center; gap: 8px;">
           <span class="material-symbols-rounded" style="color: var(--primary);">print</span>
-          <h3 style="font-size: 18px; font-weight: 700;">Opciones de Impresión</h3>
+          <h3 style="font-size: 17px; font-weight: 700;">Opciones de Impresión</h3>
         </div>
         <button class="btn-icon" onclick="closeModal('modalPrint')">
           <span class="material-symbols-rounded">close</span>
         </button>
       </div>
 
-      <!-- Selección de Cuatrimestre -->
       <div class="form-group">
         <label>Período / Cuatrimestre</label>
         <select id="printCuatrimestreSelect" class="form-control">
@@ -1050,7 +1004,6 @@
         </select>
       </div>
 
-      <!-- Filtro de estudiantes -->
       <div class="form-group">
         <label>Filtrar Estudiantes</label>
         <select id="printFilterStudents" class="form-control">
@@ -1060,12 +1013,11 @@
         </select>
       </div>
 
-      <!-- Columnas a incluir -->
       <div class="form-group">
         <label>Columnas a Incluir en la Hoja</label>
-        <div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 6px; font-size: 13.5px;">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 7px; margin-top: 6px; font-size: 13px;">
           <label style="display: flex; align-items: center; gap: 8px; color: #777;">
-            <input type="checkbox" checked disabled> Nombre y Apellido del Estudiante <b>(Obligatorio)</b>
+            <input type="checkbox" checked disabled> Nombre del Estudiante <b>(Obligatorio)</b>
           </label>
           <label style="display: flex; align-items: center; gap: 8px;">
             <input type="checkbox" id="printColPrelim" checked> Informes Preliminares (TEA, TEP, TED)
@@ -1082,7 +1034,7 @@
         </div>
       </div>
 
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 24px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
         <button class="btn-tonal" onclick="closeModal('modalPrint')">Cancelar</button>
         <button class="btn-filled" onclick="executeCustomPrint()">
           <span class="material-symbols-rounded">print</span>
@@ -1095,7 +1047,7 @@
   <!-- MODAL: AGREGAR ESCUELA -->
   <div class="modal-backdrop" id="modalSchool">
     <div class="modal-window">
-      <h3 style="margin-bottom: 16px; font-size: 18px;">Nueva Escuela y Curso</h3>
+      <h3 style="margin-bottom: 14px; font-size: 17px;">Nueva Escuela y Curso</h3>
       <div class="form-group">
         <label>Nombre de la Escuela</label>
         <input type="text" id="schoolNameInput" class="form-control" placeholder="Ej: E.E.S. N° 4">
@@ -1108,7 +1060,7 @@
         <label>Materia / Asignatura</label>
         <input type="text" id="subjectNameInput" class="form-control" placeholder="Ej: Historia">
       </div>
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
         <button class="btn-tonal" onclick="closeModal('modalSchool')">Cancelar</button>
         <button class="btn-filled" onclick="confirmAddSchool()">Crear</button>
       </div>
@@ -1118,22 +1070,22 @@
   <!-- MODAL: AGREGAR ESTUDIANTE -->
   <div class="modal-backdrop" id="modalStudent">
     <div class="modal-window">
-      <h3 style="margin-bottom: 16px; font-size: 18px;">Agregar Estudiante</h3>
+      <h3 style="margin-bottom: 14px; font-size: 17px;">Agregar Estudiante</h3>
       <div class="form-group">
         <label>Apellido y Nombre</label>
         <input type="text" id="studentNameInput" class="form-control" placeholder="Ej: Gómez, Martín">
       </div>
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
         <button class="btn-tonal" onclick="closeModal('modalStudent')">Cancelar</button>
         <button class="btn-filled" onclick="confirmAddStudent()">Guardar Estudiante</button>
       </div>
     </div>
   </div>
 
-  <!-- MODAL: AGREGAR EXAMEN (CON PERÍODO 1C O 2C) -->
+  <!-- MODAL: AGREGAR EXAMEN -->
   <div class="modal-backdrop" id="modalExam">
     <div class="modal-window">
-      <h3 style="margin-bottom: 16px; font-size: 18px;">Nuevo Examen o Trabajo Práctico</h3>
+      <h3 style="margin-bottom: 14px; font-size: 17px;">Nuevo Examen o Trabajo Práctico</h3>
       <div class="form-group">
         <label>Período / Cuatrimestre</label>
         <select id="examCuatrimestreSelect" class="form-control">
@@ -1154,7 +1106,7 @@
         <label>Título o Tema</label>
         <input type="text" id="examTitleInput" class="form-control" placeholder="Ej: TP 1 - Revolución de Mayo">
       </div>
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
         <button class="btn-tonal" onclick="closeModal('modalExam')">Cancelar</button>
         <button class="btn-filled" onclick="confirmAddExam()">Crear Columna</button>
       </div>
@@ -1164,7 +1116,7 @@
   <!-- MODAL: CARGAR EVENTO -->
   <div class="modal-backdrop" id="modalEvent">
     <div class="modal-window">
-      <h3 style="margin-bottom: 16px; font-size: 18px;">Cargar Evento en Calendario</h3>
+      <h3 style="margin-bottom: 14px; font-size: 17px;">Cargar Evento en Calendario</h3>
       <div class="form-group">
         <label>Tipo de Evento</label>
         <select id="evType" class="form-control">
@@ -1194,7 +1146,7 @@
         <label>Curso o Institución</label>
         <input type="text" id="evCourse" class="form-control" placeholder="Ej: Todos / 3° 1ra">
       </div>
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
         <button class="btn-tonal" onclick="closeModal('modalEvent')">Cancelar</button>
         <button class="btn-filled" onclick="confirmAddEvent()">Guardar</button>
       </div>
@@ -1204,31 +1156,31 @@
   <!-- MODAL: CONFIGURAR DÍAS DE CLASE -->
   <div class="modal-backdrop" id="modalDiasClase">
     <div class="modal-window">
-      <h3 style="margin-bottom: 10px; font-size: 18px;">Días que dictas clases</h3>
-      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
-        Selecciona qué días de la semana tienes clase con este curso:
+      <h3 style="margin-bottom: 10px; font-size: 17px;">Días que dictas clases</h3>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;">
+        Selecciona qué días tienes clase con este curso. Se crearán las fechas <b>vacías</b> en la planilla:
       </p>
-      <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; flex-direction: column; gap: 9px;">
         <label><input type="checkbox" id="d-1" checked> Lunes</label>
         <label><input type="checkbox" id="d-2"> Martes</label>
         <label><input type="checkbox" id="d-3" checked> Miércoles</label>
         <label><input type="checkbox" id="d-4"> Jueves</label>
         <label><input type="checkbox" id="d-5"> Viernes</label>
       </div>
-      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px;">
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
         <button class="btn-tonal" onclick="closeModal('modalDiasClase')">Cerrar</button>
-        <button class="btn-filled" onclick="generateClassDates()">Autocompletar Fechas</button>
+        <button class="btn-filled" onclick="generateClassDates()">Generar Fechas</button>
       </div>
     </div>
   </div>
 
   <!-- MODAL: HACHE IA -->
   <div class="modal-backdrop" id="modalIA">
-    <div class="modal-window" style="max-width: 580px;">
-      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+    <div class="modal-window" style="max-width: 540px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
         <div style="display: flex; align-items: center; gap: 8px;">
           <span class="material-symbols-rounded" style="color: #7C4DFF;">psychology</span>
-          <h3 style="font-size: 18px; font-weight: 700;">Hache IA - Asistente Docente</h3>
+          <h3 style="font-size: 17px; font-weight: 700;">Hache IA - Asistente Docente</h3>
         </div>
         <button class="btn-icon" onclick="closeModal('modalIA')">
           <span class="material-symbols-rounded">close</span>
@@ -1237,7 +1189,7 @@
 
       <div class="chat-container" id="iaChatBox">
         <div class="chat-bubble bubble-ia">
-          ¡Hola, profe! Soy tu asistente en <b>Hache</b>. ¿Qué necesitas preparar hoy? Puedo redactar consignas, rúbricas, ideas de actividades o comunicados para las familias.
+          ¡Hola, profe! Soy tu asistente en <b>Hache</b>. ¿Qué necesitas preparar hoy? Puedo ayudarte a redactar consignas, rúbricas, ideas de actividades o comunicados para las familias.
         </div>
       </div>
 
@@ -1256,7 +1208,7 @@
     </div>
   </div>
 
-  <!-- ÁREA DE IMPRESIÓN OFICIAL (SOLO VISIBLE AL IMPRIMIR) -->
+  <!-- ÁREA DE IMPRESIÓN OFICIAL -->
   <div id="printReportArea"></div>
 
   <!-- ==================== JAVASCRIPT ==================== -->
@@ -1269,19 +1221,17 @@
     let store = JSON.parse(localStorage.getItem('hache_docente_clean')) || EMPTY_STORE;
     let selectedSchoolId = null;
     let selectedCourseId = null;
+    let currentViewMode = 'all'; // 'all' (Integral), 'attendance', 'grades'
 
     function saveStore() {
       localStorage.setItem('hache_docente_clean', JSON.stringify(store));
     }
 
-    /* NOTIFICACIÓN SNACKBAR ANDROID */
     function showAndroidToast(text) {
       const toast = document.getElementById('androidToast');
       document.getElementById('toastMessage').innerText = text;
       toast.classList.add('show');
-      setTimeout(() => {
-        toast.classList.remove('show');
-      }, 2500);
+      setTimeout(() => { toast.classList.remove('show'); }, 2200);
     }
 
     function handleManualSave() {
@@ -1303,11 +1253,19 @@
       selectedCourseId = null;
       document.getElementById('screenHome').classList.add('active');
       document.getElementById('screenCourse').classList.remove('active');
-      document.getElementById('courseNavTabs').style.display = 'none';
       document.getElementById('topTitleBar').innerText = 'Inicio';
       document.getElementById('topSubtitleBar').innerText = 'Hache, agenda docente';
       renderEventsList('semana');
       if (window.innerWidth < 850) document.getElementById('appDrawer').classList.remove('open');
+    }
+
+    function getActiveCourse() {
+      const school = store.schools.find(s => s.id === selectedSchoolId);
+      return school ? school.courses.find(c => c.id === selectedCourseId) : null;
+    }
+
+    function getActiveSchool() {
+      return store.schools.find(s => s.id === selectedSchoolId);
     }
 
     /* GESTIÓN DE ESCUELAS */
@@ -1317,9 +1275,9 @@
 
       if (store.schools.length === 0) {
         container.innerHTML = `
-          <div style="text-align: center; padding: 20px 10px; color: var(--text-muted); font-size: 13px;">
+          <div style="text-align: center; padding: 18px 8px; color: var(--text-muted); font-size: 13px;">
             <span class="material-symbols-rounded" style="font-size: 32px; color: #BBB;">apartment</span>
-            <p style="margin-top: 6px;">No tienes escuelas cargadas aún.</p>
+            <p style="margin-top: 4px;">No tienes escuelas cargadas aún.</p>
           </div>
         `;
         return;
@@ -1375,167 +1333,122 @@
 
       document.getElementById('screenHome').classList.remove('active');
       document.getElementById('screenCourse').classList.add('active');
-      document.getElementById('courseNavTabs').style.display = 'flex';
 
       document.getElementById('topTitleBar').innerText = `${course.name} - ${course.subject}`;
       document.getElementById('topSubtitleBar').innerText = school.name;
 
       renderSchoolsList();
-      renderCourseAttendance();
-      renderCourseGrades();
+      renderUnifiedTable();
 
       if (window.innerWidth < 850) {
         document.getElementById('appDrawer').classList.remove('open');
       }
     }
 
-    function switchCourseTab(tab) {
-      document.getElementById('tabBtnAsistencia').classList.toggle('active', tab === 'asistencia');
-      document.getElementById('tabBtnNotas').classList.toggle('active', tab === 'notas');
-      document.getElementById('subViewAsistencia').style.display = tab === 'asistencia' ? 'block' : 'none';
-      document.getElementById('subViewNotas').style.display = tab === 'notas' ? 'block' : 'none';
+    function setTableViewMode(mode) {
+      currentViewMode = mode;
+      document.getElementById('tabIntegral').classList.toggle('active', mode === 'all');
+      document.getElementById('tabSoloAtt').classList.toggle('active', mode === 'attendance');
+      document.getElementById('tabSoloGrades').classList.toggle('active', mode === 'grades');
+      renderUnifiedTable();
     }
 
-    function getActiveCourse() {
-      const school = store.schools.find(s => s.id === selectedSchoolId);
-      return school ? school.courses.find(c => c.id === selectedCourseId) : null;
-    }
-
-    function getActiveSchool() {
-      return store.schools.find(s => s.id === selectedSchoolId);
-    }
-
-    /* ASISTENCIA CON PORCENTAJE */
-    function renderCourseAttendance() {
+    /* ==============================================================
+       TABLA INTEGRAL: ASISTENCIAS + NOTAS AL MISMO TIEMPO
+       ============================================================== */
+    function renderUnifiedTable() {
       const course = getActiveCourse();
-      const wrapper = document.getElementById('attendanceTableWrapper');
+      const wrapper = document.getElementById('unifiedTableWrapper');
 
       if (!course || course.students.length === 0) {
         wrapper.innerHTML = `
           <div class="empty-state-view">
             <div class="empty-icon-circle">
-              <span class="material-symbols-rounded" style="font-size: 36px;">group_add</span>
+              <span class="material-symbols-rounded" style="font-size: 34px;">group_add</span>
             </div>
             <h4>No hay estudiantes en este curso</h4>
-            <p>Agrega los estudiantes de tu lista con el botón "+ Estudiante" para comenzar a tomar asistencia.</p>
+            <p>Toca "+ Estudiante" para cargar tu nómina de alumnos.</p>
           </div>
         `;
         return;
       }
 
-      let theadHtml = `
-        <thead>
-          <tr>
-            <th class="col-student">Estudiante</th>
-            <th style="min-width: 90px;">% Asist.</th>
-      `;
+      const showAtt = (currentViewMode === 'all' || currentViewMode === 'attendance');
+      const showGrades = (currentViewMode === 'all' || currentViewMode === 'grades');
 
-      course.dates.forEach(d => {
-        theadHtml += `<th style="min-width: 46px;">${d}</th>`;
-      });
-      theadHtml += `</tr></thead>`;
+      // 1. FILA DE SECCIÓN / GRUPO
+      let headerGroupRow = `<tr><th class="col-student section-th-header" rowspan="2">Estudiante</th>`;
 
+      if (showAtt) {
+        const attColSpan = 1 + course.dates.length;
+        headerGroupRow += `<th class="section-th-header" colspan="${attColSpan}">Control de Asistencia</th>`;
+      }
+
+      if (showGrades) {
+        const gradesColSpan = 2 + course.exams.length + 2; // Inf1 + Inf2 + Exámenes + Prom + Val
+        headerGroupRow += `<th class="section-th-header" colspan="${gradesColSpan}">Calificaciones y Valoración Pedagógica</th>`;
+      }
+      headerGroupRow += `</tr>`;
+
+      // 2. FILA DE COLUMNAS ESPECÍFICAS
+      let headerColsRow = `<tr>`;
+
+      if (showAtt) {
+        headerColsRow += `<th style="min-width: 60px;">% Asist.</th>`;
+        course.dates.forEach(d => {
+          headerColsRow += `<th style="min-width: 38px; font-size: 11px;">${d}</th>`;
+        });
+      }
+
+      if (showGrades) {
+        headerColsRow += `
+          <th style="min-width: 65px;">Inf. 1C</th>
+          <th style="min-width: 65px;">Inf. 2C</th>
+        `;
+
+        course.exams.forEach((ex, exIdx) => {
+          headerColsRow += `
+            <th class="th-vertical">
+              <span class="material-symbols-rounded th-del-btn" title="Eliminar examen" onclick="deleteExamColumn(${exIdx})">cancel</span>
+              <div class="vertical-title" title="${ex.name} (${ex.term || '1C'})">${ex.name}</div>
+            </th>
+          `;
+        });
+
+        headerColsRow += `
+          <th style="min-width: 55px;">Prom.</th>
+          <th style="min-width: 80px;">Valoración</th>
+        `;
+      }
+      headerColsRow += `</tr>`;
+
+      // 3. CUERPO DE LA TABLA
       let tbodyHtml = `<tbody>`;
+
       course.students.forEach((st, stIdx) => {
+        // Cálculo de Porcentaje: P / (P + A) excluyendo 'S' y '-' (vacíos)
         let p = 0, a = 0;
         st.att.forEach(val => {
           if (val === 'P') p++;
           if (val === 'A') a++;
         });
         const total = p + a;
-        const pct = total > 0 ? Math.round((p / total) * 100) : 100;
+        const pct = total > 0 ? Math.round((p / total) * 100) : null;
 
-        tbodyHtml += `
-          <tr>
-            <td class="col-student">${st.name}</td>
-            <td style="font-weight: 700; color: ${pct >= 75 ? 'var(--color-tep)' : pct >= 60 ? 'var(--color-yellow)' : 'var(--color-ted)'};">
-              ${pct}%
-            </td>
-        `;
-
-        st.att.forEach((val, dIdx) => {
-          tbodyHtml += `
-            <td>
-              <span class="chip-att chip-${val}" onclick="toggleAttendance(${stIdx}, ${dIdx})">${val}</span>
-            </td>
-          `;
-        });
-
-        tbodyHtml += `</tr>`;
-      });
-      tbodyHtml += `</tbody>`;
-
-      wrapper.innerHTML = `<table class="modern-table">${theadHtml}${tbodyHtml}</table>`;
-    }
-
-    function toggleAttendance(stIdx, dIdx) {
-      const course = getActiveCourse();
-      const current = course.students[stIdx].att[dIdx] || 'P';
-      let next = 'P';
-      if (current === 'P') next = 'A';
-      else if (current === 'A') next = 'S';
-      else if (current === 'S') next = 'P';
-
-      course.students[stIdx].att[dIdx] = next;
-      saveStore();
-      renderCourseAttendance();
-      renderCourseGrades();
-    }
-
-    /* CALIFICACIONES CON ENCABEZADOS VERTICALES */
-    function renderCourseGrades() {
-      const course = getActiveCourse();
-      const wrapper = document.getElementById('gradesTableWrapper');
-
-      if (!course || course.students.length === 0) {
-        wrapper.innerHTML = `
-          <div class="empty-state-view">
-            <div class="empty-icon-circle">
-              <span class="material-symbols-rounded" style="font-size: 36px;">grade</span>
-            </div>
-            <h4>Planilla de notas lista</h4>
-            <p>Carga exámenes o trabajos prácticos para comenzar a registrar notas y valoraciones.</p>
-          </div>
-        `;
-        return;
-      }
-
-      let theadHtml = `
-        <thead>
-          <tr>
-            <th class="col-student">Estudiante</th>
-            <th style="min-width: 90px;">Inf. 1C</th>
-            <th style="min-width: 90px;">Inf. 2C</th>
-      `;
-
-      course.exams.forEach((ex, exIdx) => {
-        theadHtml += `
-          <th class="th-vertical">
-            <span class="material-symbols-rounded th-del-btn" title="Eliminar examen" onclick="deleteExamColumn(${exIdx})">cancel</span>
-            <div class="vertical-title" title="${ex.name} (${ex.term || '1C'})">${ex.name}</div>
-          </th>
-        `;
-      });
-
-      theadHtml += `
-            <th style="min-width: 70px;">Prom.</th>
-            <th style="min-width: 95px;">Valoración</th>
-          </tr>
-        </thead>
-      `;
-
-      let tbodyHtml = `<tbody>`;
-      course.students.forEach((st, stIdx) => {
+        // Cálculo de Promedio de notas
         const validGrades = st.grades.filter(g => typeof g === 'number' && !isNaN(g));
         let avg = 0;
         if (validGrades.length > 0) {
-          avg = (validGrades.reduce((a, b) => a + b, 0) / validGrades.length).toFixed(1);
+          avg = (validGrades.reduce((acc, curr) => acc + curr, 0) / validGrades.length).toFixed(1);
         }
 
-        const vinoAlgunaVez = st.att.some(a => a === 'P');
-
+        // Valoración según reglas solicitadas:
+        // TED: solo si el estudiante no fue nunca en el cuatrimestre (ningún P) o sin notas
+        // TEA: Promedio > 7
+        // TEP: Promedio entre 1 y 6
+        const asistioAlgunaVez = st.att.some(val => val === 'P');
         let val = 'TEP';
-        if (!vinoAlgunaVez || validGrades.length === 0) {
+        if (!asistioAlgunaVez || validGrades.length === 0) {
           val = 'TED';
         } else if (parseFloat(avg) >= 7.0) {
           val = 'TEA';
@@ -1543,37 +1456,81 @@
           val = 'TEP';
         }
 
-        tbodyHtml += `
-          <tr>
-            <td class="col-student">${st.name}</td>
+        tbodyHtml += `<tr><td class="col-student">${st.name}</td>`;
+
+        // SECCIÓN ASISTENCIA
+        if (showAtt) {
+          const pctText = pct !== null ? `${pct}%` : '-';
+          const pctColor = pct !== null ? (pct >= 75 ? 'var(--color-tep)' : pct >= 60 ? 'var(--color-yellow)' : 'var(--color-ted)') : 'var(--text-muted)';
+          
+          tbodyHtml += `<td style="font-weight: 700; color: ${pctColor};">${pctText}</td>`;
+
+          st.att.forEach((v, dIdx) => {
+            const displayVal = v === '-' ? '-' : v;
+            const chipClass = v === '-' ? 'chip-empty' : `chip-${v}`;
+            tbodyHtml += `
+              <td>
+                <span class="chip-att ${chipClass}" onclick="cycleAttendance(${stIdx}, ${dIdx})" title="Click: P -> A -> S -> Vacío">${displayVal}</span>
+              </td>
+            `;
+          });
+        }
+
+        // SECCIÓN CALIFICACIONES
+        if (showGrades) {
+          tbodyHtml += `
             <td><span class="val-badge val-${st.p1}" style="cursor:pointer;" onclick="cyclePrelim(${stIdx}, 'p1')">${st.p1}</span></td>
             <td><span class="val-badge val-${st.p2}" style="cursor:pointer;" onclick="cyclePrelim(${stIdx}, 'p2')">${st.p2}</span></td>
-        `;
-
-        course.exams.forEach((ex, exIdx) => {
-          const g = st.grades[exIdx] !== undefined ? st.grades[exIdx] : '-';
-          let gClass = '';
-          if (typeof g === 'number') {
-            if (g <= 3) gClass = 'g-red';
-            else if (g <= 6) gClass = 'g-yellow';
-            else gClass = 'g-blue';
-          }
-          tbodyHtml += `
-            <td>
-              <span class="chip-grade ${gClass}" onclick="setGradePrompt(${stIdx}, ${exIdx})">${g}</span>
-            </td>
           `;
-        });
 
-        tbodyHtml += `
+          course.exams.forEach((ex, exIdx) => {
+            const g = st.grades[exIdx] !== undefined ? st.grades[exIdx] : '-';
+            let gClass = '';
+            if (typeof g === 'number') {
+              if (g <= 3) gClass = 'g-red';
+              else if (g <= 6) gClass = 'g-yellow';
+              else gClass = 'g-blue';
+            }
+            tbodyHtml += `
+              <td>
+                <span class="chip-grade ${gClass}" onclick="setGradePrompt(${stIdx}, ${exIdx})">${g}</span>
+              </td>
+            `;
+          });
+
+          tbodyHtml += `
             <td style="font-weight: 700;">${avg > 0 ? avg : '-'}</td>
             <td><span class="val-badge val-${val}">${val}</span></td>
-          </tr>
-        `;
+          `;
+        }
+
+        tbodyHtml += `</tr>`;
       });
+
       tbodyHtml += `</tbody>`;
 
-      wrapper.innerHTML = `<table class="modern-table">${theadHtml}${tbodyHtml}</table>`;
+      wrapper.innerHTML = `
+        <table class="modern-table">
+          <thead>${headerGroupRow}${headerColsRow}</thead>
+          ${tbodyHtml}
+        </table>
+      `;
+    }
+
+    /* CICLO DE ASISTENCIA: - -> P -> A -> S -> - */
+    function cycleAttendance(stIdx, dIdx) {
+      const course = getActiveCourse();
+      const current = course.students[stIdx].att[dIdx] || '-';
+      let next = '-';
+
+      if (current === '-') next = 'P';
+      else if (current === 'P') next = 'A';
+      else if (current === 'A') next = 'S';
+      else if (current === 'S') next = '-';
+
+      course.students[stIdx].att[dIdx] = next;
+      saveStore();
+      renderUnifiedTable();
     }
 
     function cyclePrelim(stIdx, field) {
@@ -1582,7 +1539,7 @@
       const cycle = { 'TEA': 'TEP', 'TEP': 'TED', 'TED': 'TEA' };
       course.students[stIdx][field] = cycle[current] || 'TEA';
       saveStore();
-      renderCourseGrades();
+      renderUnifiedTable();
     }
 
     function setGradePrompt(stIdx, exIdx) {
@@ -1601,7 +1558,7 @@
           alert('Por favor introduce una nota entre 1 y 10.');
         }
         saveStore();
-        renderCourseGrades();
+        renderUnifiedTable();
       }
     }
 
@@ -1613,11 +1570,11 @@
           if (st.grades[exIdx] !== undefined) st.grades.splice(exIdx, 1);
         });
         saveStore();
-        renderCourseGrades();
+        renderUnifiedTable();
       }
     }
 
-    /* AGENDA Y EVENTOS */
+    /* AGENDA Y EVENTOS (HOME) */
     function renderEventsList(filter = 'semana') {
       const container = document.getElementById('eventsContainer');
       container.innerHTML = '';
@@ -1626,10 +1583,10 @@
         container.innerHTML = `
           <div class="empty-state-view">
             <div class="empty-icon-circle">
-              <span class="material-symbols-rounded" style="font-size: 36px;">event_busy</span>
+              <span class="material-symbols-rounded" style="font-size: 32px;">event_busy</span>
             </div>
             <h4>No hay eventos cargados</h4>
-            <p>Usa el botón "Nuevo Evento" para registrar paros, feriados, salidas didácticas o entregas de trabajos.</p>
+            <p>Usa el botón "Nuevo Evento" para registrar paros, feriados o entregas de trabajos.</p>
           </div>
         `;
         return;
@@ -1647,8 +1604,8 @@
             <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-muted); margin-bottom: 2px;">
               ${ev.type.toUpperCase()} &bull; ${ev.course}
             </div>
-            <h4 style="font-size: 15px; font-weight: 700; margin-bottom: 4px;">${ev.title}</h4>
-            <div style="font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 4px;">
+            <h4 style="font-size: 14.5px; font-weight: 700; margin-bottom: 3px;">${ev.title}</h4>
+            <div style="font-size: 11.5px; color: var(--text-muted); display: flex; align-items: center; gap: 4px;">
               <span class="material-symbols-rounded" style="font-size: 14px;">calendar_today</span>
               ${ev.date} - ${ev.time}
             </div>
@@ -1673,9 +1630,7 @@
       renderEventsList('semana');
     }
 
-    /* ==============================================================
-       LÓGICA DEL PANEL DE IMPRESIÓN PERSONALIZADA
-       ============================================================== */
+    /* MODAL IMPRESIÓN */
     function openPrintModal() {
       const course = getActiveCourse();
       if (!course) {
@@ -1690,14 +1645,13 @@
       const school = getActiveSchool();
       if (!course || !school) return;
 
-      const periodo = document.getElementById('printCuatrimestreSelect').value; // 'ambos', '1C', '2C'
-      const filtroEstudiantes = document.getElementById('printFilterStudents').value; // 'todos', 'aprobados', 'desaprobados'
+      const periodo = document.getElementById('printCuatrimestreSelect').value;
+      const filtroEstudiantes = document.getElementById('printFilterStudents').value;
       const incPrelim = document.getElementById('printColPrelim').checked;
       const incAtt = document.getElementById('printColAtt').checked;
       const incExams = document.getElementById('printColExams').checked;
       const incAvgVal = document.getElementById('printColAvgVal').checked;
 
-      // Filtrar exámenes según el cuatrimestre elegido
       let filteredExams = [];
       if (incExams) {
         course.exams.forEach((ex, idx) => {
@@ -1708,7 +1662,6 @@
         });
       }
 
-      // Filtrar alumnos (Aprobados: TEA / Promedio >= 7, Desaprobados: TEP / TED / Promedio < 7)
       let studentsToPrint = [];
       course.students.forEach(st => {
         const validGrades = st.grades.filter(g => typeof g === 'number' && !isNaN(g));
@@ -1721,17 +1674,13 @@
         else val = 'TEP';
 
         let cumpleFiltro = true;
-        if (filtroEstudiantes === 'aprobados') {
-          cumpleFiltro = (val === 'TEA');
-        } else if (filtroEstudiantes === 'desaprobados') {
-          cumpleFiltro = (val === 'TEP' || val === 'TED');
-        }
+        if (filtroEstudiantes === 'aprobados') cumpleFiltro = (val === 'TEA');
+        else if (filtroEstudiantes === 'desaprobados') cumpleFiltro = (val === 'TEP' || val === 'TED');
 
         if (cumpleFiltro) {
-          // Asistencia
           let p = 0, a = 0;
           st.att.forEach(v => { if (v === 'P') p++; if (v === 'A') a++; });
-          let pct = (p + a) > 0 ? Math.round((p / (p + a)) * 100) : 100;
+          let pct = (p + a) > 0 ? Math.round((p / (p + a)) * 100) : '-';
 
           studentsToPrint.push({
             name: st.name,
@@ -1750,25 +1699,24 @@
         return;
       }
 
-      // Armar el documento de impresión formal
       const today = new Date().toLocaleDateString('es-AR');
       const printContainer = document.getElementById('printReportArea');
 
       let printHtml = `
-        <div style="border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 12px;">
+        <div style="border-bottom: 2px solid #000; padding-bottom: 6px; margin-bottom: 10px;">
           <div style="display: flex; justify-content: space-between; align-items: flex-start;">
             <div>
-              <h2 style="font-size: 18pt; margin: 0; font-family: 'Product Sans', Arial;">${school.name}</h2>
-              <div style="font-size: 12pt; margin-top: 3px;">
+              <h2 style="font-size: 17pt; margin: 0; font-family: 'Product Sans', Arial;">${school.name}</h2>
+              <div style="font-size: 11pt; margin-top: 3px;">
                 <b>Curso:</b> ${course.name} &nbsp;|&nbsp; <b>Materia:</b> ${course.subject}
               </div>
             </div>
-            <div style="text-align: right; font-size: 10pt;">
+            <div style="text-align: right; font-size: 9.5pt;">
               <div><b>Ciclo Lectivo:</b> 2026</div>
               <div><b>Fecha:</b> ${today}</div>
             </div>
           </div>
-          <div style="margin-top: 6px; font-size: 10.5pt; color: #333;">
+          <div style="margin-top: 5px; font-size: 10pt; color: #333;">
             <b>Informe:</b> ${periodo === 'ambos' ? 'Trayectoria Anual Completa' : (periodo === '1C' ? '1er Cuatrimestre' : '2do Cuatrimestre')} &nbsp;|&nbsp; 
             <b>Alumnos:</b> ${filtroEstudiantes === 'todos' ? 'Todos los inscriptos' : (filtroEstudiantes === 'aprobados' ? 'Solo Aprobados (TEA)' : 'Solo en Proceso / Desaprobados (TEP/TED)')}
           </div>
@@ -1777,25 +1725,25 @@
         <table class="print-report-table">
           <thead>
             <tr>
-              <th style="width: 28px;">#</th>
-              <th style="text-align: left; min-width: 220px;">Estudiante</th>
+              <th style="width: 25px;">#</th>
+              <th style="text-align: left; min-width: 200px;">Estudiante</th>
       `;
 
-      if (incAtt) printHtml += `<th style="width: 60px;">% Asist.</th>`;
+      if (incAtt) printHtml += `<th style="width: 55px;">% Asist.</th>`;
 
       if (incPrelim) {
-        if (periodo === '1C' || periodo === 'ambos') printHtml += `<th style="width: 65px;">Inf. 1C</th>`;
-        if (periodo === '2C' || periodo === 'ambos') printHtml += `<th style="width: 65px;">Inf. 2C</th>`;
+        if (periodo === '1C' || periodo === 'ambos') printHtml += `<th style="width: 60px;">Inf. 1C</th>`;
+        if (periodo === '2C' || periodo === 'ambos') printHtml += `<th style="width: 60px;">Inf. 2C</th>`;
       }
 
       if (incExams) {
         filteredExams.forEach(ex => {
-          printHtml += `<th style="font-size: 9.5pt;">${ex.name}</th>`;
+          printHtml += `<th style="font-size: 9pt;">${ex.name}</th>`;
         });
       }
 
       if (incAvgVal) {
-        printHtml += `<th style="width: 60px;">Prom.</th><th style="width: 80px;">Valoración</th>`;
+        printHtml += `<th style="width: 55px;">Prom.</th><th style="width: 75px;">Valoración</th>`;
       }
 
       printHtml += `</tr></thead><tbody>`;
@@ -1807,7 +1755,7 @@
             <td class="text-left">${st.name}</td>
         `;
 
-        if (incAtt) printHtml += `<td>${st.pct}%</td>`;
+        if (incAtt) printHtml += `<td>${st.pct === '-' ? '-' : st.pct + '%'}</td>`;
 
         if (incPrelim) {
           if (periodo === '1C' || periodo === 'ambos') printHtml += `<td><span class="badge-print">${st.p1}</span></td>`;
@@ -1833,18 +1781,16 @@
 
       printHtml += `</tbody></table>`;
       printHtml += `
-        <div style="margin-top: 30px; display: flex; justify-content: space-between; font-size: 10pt;">
-          <div style="border-top: 1px solid #333; width: 200px; text-align: center; padding-top: 4px;">Firma del Docente</div>
-          <div style="border-top: 1px solid #333; width: 200px; text-align: center; padding-top: 4px;">Firma Directivo / Vicedirector</div>
+        <div style="margin-top: 26px; display: flex; justify-content: space-between; font-size: 9.5pt;">
+          <div style="border-top: 1px solid #333; width: 190px; text-align: center; padding-top: 3px;">Firma del Docente</div>
+          <div style="border-top: 1px solid #333; width: 190px; text-align: center; padding-top: 3px;">Firma Equipo Directivo</div>
         </div>
       `;
 
       printContainer.innerHTML = printHtml;
       closeModal('modalPrint');
 
-      setTimeout(() => {
-        window.print();
-      }, 300);
+      setTimeout(() => { window.print(); }, 250);
     }
 
     /* MODALES GENERALES */
@@ -1887,7 +1833,7 @@
       document.getElementById('subjectNameInput').value = '';
 
       selectCourse(newSchool.id, newSchool.courses[0].id);
-      showAndroidToast("Escuela y curso agregados");
+      showAndroidToast("Escuela y curso creados");
     }
 
     function openAddCourseToSchool(schoolId) {
@@ -1920,15 +1866,14 @@
       course.students.push({
         id: Date.now(),
         name: name,
-        att: new Array(course.dates.length).fill('P'),
+        att: new Array(course.dates.length).fill('-'), // Inicialmente vacíos
         p1: 'TEA',
         p2: 'TEA',
         grades: []
       });
 
       saveStore();
-      renderCourseAttendance();
-      renderCourseGrades();
+      renderUnifiedTable();
       closeModal('modalStudent');
       document.getElementById('studentNameInput').value = '';
       showAndroidToast("Estudiante agregado");
@@ -1948,7 +1893,7 @@
       });
 
       saveStore();
-      renderCourseGrades();
+      renderUnifiedTable();
       closeModal('modalExam');
       document.getElementById('examTitleInput').value = '';
       showAndroidToast("Evaluación agregada a la planilla");
@@ -1992,16 +1937,16 @@
 
       course.dates = dates;
       course.students.forEach(st => {
-        st.att = new Array(dates.length).fill('P');
+        st.att = new Array(dates.length).fill('-'); // Inicialmente vacíos
       });
 
       saveStore();
-      renderCourseAttendance();
+      renderUnifiedTable();
       closeModal('modalDiasClase');
-      showAndroidToast("Fechas autocompletadas en el calendario");
+      showAndroidToast("Fechas creadas (vacías) en la planilla");
     }
 
-    /* CHAT ASISTENTE HACHE IA */
+    /* ASISTENTE HACHE IA */
     function sendIaMessage() {
       const input = document.getElementById('iaInput');
       const text = input.value.trim();
